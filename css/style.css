@@ -33,7 +33,7 @@ a {
   background-image: url('../img/bg.png');
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: -140px 0;
 }
 
 #notfound .notfound-bg:after {
