@@ -1,6 +1,6 @@
 * {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -9,8 +9,8 @@ body {
 }
 
 a {
-    text-decoration:none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 #notfound {
@@ -18,22 +18,20 @@ a {
   height: 100vh;
 }
 
-#notfound-bg-source {    
-    position:fixed;
-    right:10px;
-    bottom:0px;
-    font-size: 50%;
-    color: black;
+#notfound-bg-source {
+  position: fixed;
+  right: 10px;
+  bottom: 0px;
+  font-size: 50%;
+  color: black;
 }
 
 #notfound .notfound-bg {
   position: absolute;
   width: 100vw;
   height: 100vh;
-  background-image: url('../img/bg.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: -4vw 0;
+  background-image: url('../img/bg.webp');
+  background-size: cover;
 }
 
 #notfound .notfound-bg:after {
@@ -46,11 +44,11 @@ a {
 
 #notfound .notfound {
   position: absolute;
-  left: 70%;
+  left: 28%;
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 #notfound .notfound:after {
@@ -58,14 +56,14 @@ a {
   position: absolute;
   left: 50%;
   top: 50%;
-  -webkit-transform: translate(-50% , -50%);
-      -ms-transform: translate(-50% , -50%);
-          transform: translate(-50% , -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   width: 60vh;
   height: 60vh;
   background-color: rgba(255, 255, 255, 0.7);
   -webkit-box-shadow: 0px 0px 0px 30px rgba(255, 255, 255, 0.7) inset;
-          box-shadow: 0px 0px 0px 30px rgba(255, 255, 255, 0.7) inset;
+  box-shadow: 0px 0px 0px 30px rgba(255, 255, 255, 0.7) inset;
   z-index: -1;
   min-height: 450px;
   min-width: 450px;
@@ -90,8 +88,8 @@ a {
   left: 50%;
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   font-size: 220px;
   margin: 0px;
   color: #222225;
@@ -160,6 +158,7 @@ a {
 .notfound-social {
   margin-bottom: 15px;
 }
+
 .notfound-social>a {
   display: inline-block;
   height: 40px;
@@ -172,6 +171,7 @@ a {
   -webkit-transition: 0.2s all;
   transition: 0.2s all;
 }
+
 .notfound-social>a:hover {
   color: #fff;
   background-color: #ff00b4;
@@ -193,8 +193,8 @@ a {
 
 @media only screen and (orientation: portrait) {
 
-#notfound .notfound-bg {
-  background-size: cover;
-}
+  #notfound .notfound-bg {
+    background-size: cover;
+  }
 
 }
